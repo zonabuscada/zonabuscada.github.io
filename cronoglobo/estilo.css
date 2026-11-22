@@ -18,7 +18,7 @@ body {
 }
 a { color: var(--oro); }
 .envoltura { max-width: 860px; margin: 0 auto; padding: 0 20px 64px; }
-header.cabecera { display: flex; align-items: center; gap: 14px; padding: 22px 0; border-bottom: 1px solid var(--linea); }
+header.cabecera { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding: 22px 0; border-bottom: 1px solid var(--linea); }
 header.cabecera img { width: 44px; height: 44px; border-radius: 50%; }
 header.cabecera .marca { font-family: Georgia, "Times New Roman", serif; font-size: 22px; letter-spacing: 3px; text-decoration: none; color: var(--texto); }
 header.cabecera .marca b { color: var(--oro); font-weight: normal; }
@@ -43,5 +43,6 @@ footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--linea)
 .nota { font-size: 14px; color: var(--suave); }
 @media (max-width: 560px) {
   h1 { font-size: 30px; }
-  header.cabecera nav { gap: 12px; font-size: 14px; }
+  header.cabecera nav { gap: 12px; font-size: 14px; margin-left: 0; width: 100%; }
+  header.cabecera .marca { font-size: 19px; letter-spacing: 2px; }
 }
