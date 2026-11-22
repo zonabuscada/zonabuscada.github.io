@@ -39,6 +39,9 @@ h2 { font-size: 24px; margin: 36px 0 8px; color: var(--oro); }
 .tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 18px; }
 .tarjeta { background: var(--panel); border: 1px solid var(--linea); border-radius: 10px; padding: 18px; }
 .tarjeta strong { display: block; color: var(--oro); margin-bottom: 4px; }
+.api-youtube { display: flex; gap: 16px; align-items: center; background: var(--panel); border: 1px solid var(--linea); border-radius: 10px; padding: 16px 18px; }
+.api-youtube p { margin: 0; }
+.api-youtube svg { display: block; flex-shrink: 0; }
 footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--linea); font-size: 14px; color: var(--suave); }
 .nota { font-size: 14px; color: var(--suave); }
 @media (max-width: 560px) {
